@@ -1,0 +1,123 @@
+
+h1{
+  font-size: 35px;
+  padding: 30px;
+  color: white;
+  padding-left: 15%;
+}
+
+h2{
+  font-size: 30px;
+  padding: 25px;
+  color: black;
+  font: Verdana;
+  padding-left: 5%;
+}
+
+h3{
+  font-size: 20px;
+  color: black;
+  padding-left: 5%;
+}
+
+nav{
+  margin-top: auto;
+  height: 90px;
+  width: 100%;
+  color: white;
+  background: #3f5c9a;
+}
+
+.entrar{
+  float: right;
+  padding-right: 5%;
+  font-family: arial;
+  font-size: 13px;
+  color: white;
+  margin-top: 28px;
+
+}
+
+.texto{
+  width: 988px;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.figure{
+  text-align: center;
+  float: left;
+  padding: 1%;
+}
+
+.figure1{
+  text-align: center;
+  float: left;
+  padding: 1%;
+}
+
+.direita{
+  width:45%;
+	float:right;
+	font:Verdana;
+	font-size:12px;
+}
+
+.registro{
+  float: none;
+  font-family: arial;
+  font-size: 13px;
+  color: white;
+  margin-top: 28px;
+}
+
+
+article{
+  width: 100%;
+  height: 1000px;
+  float: right;
+}
+
+.btn{
+  background: #3f5c9a;
+  color: white;
+  font-family: arial;
+  padding: 05px;
+}
+
+.btn1{
+  background: green;
+  color: white;
+  font-family: arial;
+  padding: 05px;
+  font-size: 25px;
+}
+
+.email{
+  float: none;
+  font-family: arial;
+  font-size: 13px;
+  color: white;
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width: 980px;){
+.formato { width: 94%;}
+article {width: 64%;}
+aside {width: 30%;}
+}
+
+@media screen and (max-width: 760px;){
+  article {width:auto; float:none;}
+  aside {width:auto; float:none;}
+}
+
+@media screen and (max-width: 480px;){
+  article{width: auto; float: none;}
+  aside{width: auto; float: none;}
+
+}
+
+article {background:#c4c4c4;}
